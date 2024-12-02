@@ -1,131 +1,58 @@
-104.16.243.117#US
-104.17.156.208#US
-104.17.208.142#US
-198.41.208.193#CA
-104.18.94.216#US
-104.19.46.23#US
-104.16.147.127#US
-104.17.127.144#US
-198.41.212.96#CA
-104.17.152.155#US
-198.41.221.46#CA
-104.17.151.133#US
-104.17.171.234#US
-104.17.169.60#US
-104.17.148.244#US
-131.186.19.112#KR
-162.159.153.180#CT
-162.159.153.165#CT
+104.17.158.152#US
+104.16.241.186#US
+104.17.212.115#US
+104.17.210.86#US
+104.17.55.25#US
+104.18.85.66#US
+104.17.167.100#US
+104.18.86.214#US
+104.17.185.110#US
+104.18.90.108#US
+104.17.188.96#US
+104.16.245.253#US
+104.18.84.124#US
+104.16.147.119#US
+104.17.170.232#US
+131.186.30.44#KR
+168.138.165.174#SG
+199.59.243.227#US
+162.159.153.181#CT
+162.159.153.26#CT
+162.159.152.68#CT
 162.159.152.60#CT
-162.159.152.107#CT
-162.159.153.147#CT
-162.159.153.255#CT
-104.19.47.203#CMCC
-104.19.55.223#CMCC
-104.19.58.34#CMCC
-104.19.40.101#CMCC
-104.19.32.197#CMCC
-104.19.62.245#CMCC
-<!DOCTYPE html>
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
-<head>
-<title>Worker threw exception | addressesapi.090227.xyz | Cloudflare</title>
-<meta charset="UTF-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-<meta name="robots" content="noindex, nofollow" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/cf.errors.css" />
-<!--[if lt IE 9]><link rel="stylesheet" id='cf_styles-ie-css' href="/cdn-cgi/styles/cf.errors.ie.css" /><![endif]-->
-<style>body{margin:0;padding:0}</style>
-
-
-<!--[if gte IE 10]><!-->
-<script>
-  if (!navigator.cookieEnabled) {
-    window.addEventListener('DOMContentLoaded', function () {
-      var cookieEl = document.getElementById('cookie-alert');
-      cookieEl.style.display = 'block';
-    })
-  }
-</script>
-<!--<![endif]-->
-
-
-</head>
-<body>
-  <div id="cf-wrapper">
-    <div class="cf-alert cf-alert-error cf-cookie-error" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
-    <div id="cf-error-details" class="cf-error-details-wrapper">
-      <div class="cf-wrapper cf-header cf-error-overview">
-        <h1>
-          <span class="cf-error-type" data-translate="error">Error</span>
-          <span class="cf-error-code">1101</span>
-          <small class="heading-ray-id">Ray ID: 8eb5c97e78ed226e &bull; 2024-12-01 20:23:04 UTC</small>
-        </h1>
-        <h2 class="cf-subheadline" data-translate="error_desc">Worker threw exception</h2>
-      </div><!-- /.header -->
-
-      <section></section><!-- spacer -->
-
-      <div class="cf-section cf-wrapper">
-        <div class="cf-columns two">
-          <div class="cf-column">
-            <h2 data-translate="what_happened">What happened?</h2>
-            <p>You've requested a page on a website (addressesapi.090227.xyz) that is on the <a href="https://www.cloudflare.com/5xx-error-landing/" target="_blank">Cloudflare</a> network. An unknown error occurred while rendering the page.</p>
-          </div>
-
-          
-          <div class="cf-column">
-            <h2 data-translate="what_can_i_do">What can I do?</h2>
-            <p><strong>If you are the owner of this website:</strong><br />you should <a href="https://www.cloudflare.com/login?utm_source=error_100x" target="_blank">login to Cloudflare</a> and check the error logs for addressesapi.090227.xyz.</p>
-          </div>
-          
-        </div>
-      </div><!-- /.section -->
-
-      <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
-  <p class="text-13">
-    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">8eb5c97e78ed226e</strong></span>
-    <span class="cf-footer-separator sm:hidden">&bull;</span>
-    <span id="cf-footer-item-ip" class="cf-footer-item hidden sm:block sm:mb-1">
-      Your IP:
-      <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>
-      <span class="hidden" id="cf-footer-ip">172.183.184.97</span>
-      <span class="cf-footer-separator sm:hidden">&bull;</span>
-    </span>
-    <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" target="_blank">Cloudflare</a></span>
-    
-  </p>
-  <script>(function(){function d(){var b=a.getElementById("cf-footer-item-ip"),c=a.getElementById("cf-footer-ip-reveal");b&&"classList"in b&&(b.classList.remove("hidden"),c.addEventListener("click",function(){c.classList.add("hidden");a.getElementById("cf-footer-ip").classList.remove("hidden")}))}var a=document;document.addEventListener&&a.addEventListener("DOMContentLoaded",d)})();</script>
-</div><!-- /.error-footer -->
-
-
-    </div><!-- /#cf-error-details -->
-  </div><!-- /#cf-wrapper -->
-
-  <script>
-  window._cf_translation = {};
-  
-  
-</script>
-
-</body>
-</html>
-
-104.17.62.116#CF-33.62MB/s
-104.19.68.58#CF-33.52MB/s
-172.64.201.240#CF-32.83MB/s
-172.64.142.186#CF-32.76MB/s
-104.18.50.126#CF-32.74MB/s
-104.16.172.85#CF-32.67MB/s
-172.64.175.68#CF-31.75MB/s
-162.159.153.159#CF-30.8MB/s
-104.17.238.111#CF-30.63MB/s
-172.64.202.163#CF-28.91MB/s
+162.159.152.110#CT
+162.159.153.101#CT
+104.19.32.218#CMCC
+104.19.36.184#CMCC
+104.19.43.239#CMCC
+104.19.60.251#CMCC
+104.19.47.208#CMCC
+104.19.47.233#CMCC
+172.67.9.51#CM-Default
+172.64.139.186#CM-Default
+172.64.136.223#CM-Default
+198.41.209.104#CM-HKG
+172.67.125.86#CM-Default
+162.159.243.123#CU-NRT
+172.67.88.160#CU-NRT
+172.67.167.63#CU-CDG
+172.64.94.29#CU-NRT
+172.67.153.240#CU-SJC
+172.64.195.178#CT-SJC
+172.64.130.62#CT-SJC
+172.67.3.242#CT-IAD
+172.67.190.252#CT-AMS
+162.159.239.56#CT-SJC
+104.18.224.158#CF-37.05MB/s
+104.16.93.42#CF-35.8MB/s
+104.18.8.233#CF-35.8MB/s
+104.19.120.69#CF-34.92MB/s
+104.19.105.219#CF-34.69MB/s
+141.101.114.244#CF-34.07MB/s
+104.18.233.106#CF-33.43MB/s
+104.19.92.127#CF-33.25MB/s
+104.19.122.67#CF-32.86MB/s
+104.18.176.180#CF-32.06MB/s
 
 
 
